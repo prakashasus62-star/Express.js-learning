@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg,#141e30,#243b55);
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      padding: 20px;
+      background: rgba(0,0,0,0.8);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00f5a0;
+    }
+
+    .contact-container {
+      margin-top: 120px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .contact-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .contact-btn {
+      width: 250px;
+      padding: 12px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .email { background: #ff6b6b; }
+    .github { background: #24292e; }
+    .linkedin { background: #0077b5; }
+    .hackerrank { background: #2ec866; }
+
+    .contact-btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    @media(max-width: 600px){
+      .contact-btn {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="contact-container">
+  <h1>Contact Me</h1>
+  <p>Let's connect and build something amazing</p>
+
+  <div class="contact-box">
+
+    <a class="contact-btn email" href="mailto:prakashasus62@gmail.com">
+      Email Me
+    </a>
+
+    <a class="contact-btn github" 
+       href="https://github.com/prakashasus62-star" 
+       target="_blank">
+      GitHub Profile
+    </a>
+
+    <a class="contact-btn linkedin" 
+       href="#" 
+       target="_blank">
+      LinkedIn Profile
+    </a>
+
+    <a class="contact-btn hackerrank" 
+       href="https://www.hackerrank.com/profile/prakashasus62" 
+       target="_blank">
+      HackerRank Profile
+    </a>
+
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      padding: 20px;
+      background: rgba(0,0,0,0.8);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00f5a0;
+    }
+
+    .about-container {
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-card {
+      width: 600px;
+      background: rgba(255,255,255,0.08);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.4);
+      backdrop-filter: blur(10px);
+      transition: 0.4s;
+    }
+
+    .about-card:hover {
+      transform: translateY(-10px);
+      background: rgba(255,255,255,0.15);
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: #00f5a0;
+    }
+
+    .title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #ffd700;
+      font-weight: bold;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    .skills {
+      margin-top: 25px;
+    }
+
+    .skill-badge {
+      display: inline-block;
+      margin: 8px;
+      padding: 8px 15px;
+      border-radius: 20px;
+      background: #00f5a0;
+      color: black;
+      font-weight: bold;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .skill-badge:hover {
+      background: white;
+      transform: scale(1.1);
+    }
+
+    @media(max-width: 768px){
+      .about-card {
+        width: 90%;
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="about-container">
+  <div class="about-card">
+
+    <h1>About Me</h1>
+    <div class="title">Frontend Developer & MERN Stack Developer</div>
+
+    <p>
+      I am a passionate <strong>Frontend Developer</strong> specializing in 
+      building modern, responsive, and user-friendly web applications.
+      I also work as a <strong>MERN Stack Developer</strong>, developing
+      full-stack applications using MongoDB, Express.js, React, and Node.js.
+    </p>
+
+    <div class="skills">
+      <span class="skill-badge">HTML</span>
+      <span class="skill-badge">CSS</span>
+      <span class="skill-badge">JavaScript</span>
+      <span class="skill-badge">React</span>
+      <span class="skill-badge">Node.js</span>
+      <span class="skill-badge">Express</span>
+      <span class="skill-badge">MongoDB</span>
+      <span class="skill-badge">REST API</span>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
